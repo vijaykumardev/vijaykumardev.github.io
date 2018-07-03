@@ -1,0 +1,95 @@
+/* CSS Document */
+
+/* ------------------- Global styles --------------*/
+
+body {
+  width: 70%;
+  margin: 3% auto 4%;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+.go-to-top {
+  text-align: right;
+  display: block;
+}
+/* ------------------- Menu ---------------------- */
+
+#menu {
+  padding-bottom: 3%;
+  margin: 0 auto 0;
+}
+#name {
+  padding-bottom: 5%;
+  color: grey;
+  font-weight: bold;
+}
+#first-name, #last-name {
+  display: block;
+}
+#first-name {
+  font-size: 3em;
+}
+#last-name {
+  font-size: 0.67em;
+  margin-bottom: 2%;
+}
+#menu ul {
+  display: inline;
+  margin: 0 auto 0;
+  padding-left: 15%;
+  width: 100%;
+  float: left;
+}
+#menu ul a {
+  font-size: 1.5em;
+}
+#menu li {
+  display: inline;
+  padding: 10px;
+}
+
+/* ------------------- Pages ------------------------ */
+.page {
+  padding: 2% 0;
+}
+.page h2 {
+  padding-left: 1%;
+}
+/* ------------------- Nutshell ------------------------ */
+/* ------------------- Experience ------------------------ */
+/* ------------------- Education ------------------------ */
+.institution img, .institution h3 {
+  display: inline-block;
+}
+
+.institution img {
+  padding-right: 5%;
+}
+
+.department-name {
+  margin: 0 0 2% 0;
+  padding-left: 5em;
+}
+
+#k-state {
+  color:#5a2b81;
+  font-weight: 700;
+  font-family: "Myriad Pro", sans-serif;
+}
+
+/* ------------------- Projects ------------------------ */
+.project {
+  margin: 0 0 2% 0;
+}
+.project-title, .project-desc, .technology {
+  display: block;
+}
+/* ------------------- Hobbies ---------------------- */
+
+#hobbies h4, #hobbies p {
+  display: inline-block;
+}
