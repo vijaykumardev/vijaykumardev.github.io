@@ -15,17 +15,70 @@ a {
 .go-to-top {
   text-align: right;
   display: block;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
 }
+
+.go-to-top:hover {
+  text-decoration: underline;
+}
+/* .go-to-top:hover::before {
+  content: "\2B9D";
+  padding-right: 1%;
+  size: 0.5em;
+  color:#5a2b81;
+} */
 /* ------------------- Menu ---------------------- */
 
+.line {
+    height: 2px;
+    background-color: black;
+    margin: 1em 0;
+    opacity: 0.75;
+}
+
+.colors {
+  height: 2px;
+  opacity: 0.25;
+  margin:0;
+}
+
+#violet {
+  background-color:#9400d3;
+}
+#indigo {
+  background-color:#4b0082;
+}
+#blue {
+  background-color:#0000ff;
+}
+#green {
+  background-color:#00ff00;
+}
+#yellow {
+  background-color:#ff7f00;
+}
+#orange {
+  background-color:#ff7f00;
+}
+#red {
+  background-color:#ff0000;
+}
+
 #menu {
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   margin: 0 auto 0;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 #name {
   padding-bottom: 5%;
-  color: grey;
-  font-weight: bold;
+  color:black;
+  opacity: 0.6;
+}
+#name:hover{
+  opacity: 1;
 }
 #first-name, #last-name {
   display: block;
@@ -34,18 +87,25 @@ a {
   font-size: 3em;
 }
 #last-name {
-  font-size: 0.67em;
-  margin-bottom: 2%;
+  font-size: 0.66em;
+  margin-bottom: 1%;
 }
 #menu ul {
   display: inline;
-  margin: 0 auto 0;
-  padding-left: 15%;
+  /* margin: 0 auto 0; */
+  padding-left: 10%;
   width: 100%;
   float: left;
 }
 #menu ul a {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  padding: 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+#menu ul a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 #menu li {
   display: inline;
@@ -54,25 +114,56 @@ a {
 
 /* ------------------- Pages ------------------------ */
 .page {
-  padding: 2% 0;
+  padding: 2% 0 1%;
 }
 .page h2 {
-  padding-left: 1%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3em;
+  opacity:0.8;
 }
+
 /* ------------------- Nutshell ------------------------ */
 /* ------------------- Experience ------------------------ */
+
+.job-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 1em;
+}
+
+.job-description li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left:-4%;
+}
+
 /* ------------------- Education ------------------------ */
 .institution img, .institution h3 {
   display: inline-block;
 }
 
+.institution h3 {
+  opacity: 0.8;
+}
+
+.institution h3:hover, .department-name:hover {
+  opacity: 1;
+  text-decoration: underline;
+  color: blue;
+}
+
+
 .institution img {
   padding-right: 5%;
+  margin: 0;
 }
 
 .department-name {
-  margin: 0 0 2% 0;
-  padding-left: 5em;
+  margin:0;
+  opacity: 0.8;
+  /* padding: 0 0 0.5% 0; */
+  /* padding-left: 5em; */
 }
 
 #k-state {
@@ -84,6 +175,23 @@ a {
 /* ------------------- Projects ------------------------ */
 .project {
   margin: 0 0 2% 0;
+}
+.project-title {
+  text-transform: uppercase;
+  padding: 1% 0;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.project-title img {
+  opacity: 1;
+}
+.img-icon {
+  padding-left: 1%;
+  height: 14px;
+  weight: 14px;
+}
+.technology {
+  padding: 0.5% 0;
 }
 .project-title, .project-desc, .technology {
   display: block;
