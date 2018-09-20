@@ -29,6 +29,15 @@ a {
   size: 0.5em;
   color:#5a2b81;
 } */
+
+.year {
+  display:inline-block;
+  font-weight: 300;
+  text-align: right;
+  font-size: 0.8em;
+  padding-bottom: -1em;
+}
+
 /* ------------------- Menu ---------------------- */
 
 .line {
@@ -138,6 +147,9 @@ a {
   margin-left:-4%;
 }
 
+.company-name {
+  display: inline-block;
+}
 /* ------------------- Education ------------------------ */
 .institution img, .institution h3 {
   display: inline-block;
@@ -181,6 +193,7 @@ a {
   padding: 1% 0;
   font-weight: bold;
   opacity: 0.9;
+  display: inline-block;
 }
 .project-title img {
   opacity: 1;
